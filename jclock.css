@@ -1,0 +1,24 @@
+.jclock {
+width: 100%; height: 100%; display: inline-block; position: relative; background: url(img/clockbg.png);
+}
+.jclock .infoweather {
+   height: 65px; width: 100px; position: absolute; bottom: -8px; left: -35px;
+    
+    }
+.jclock .infoweatherpanel {
+    display:none;
+}
+.jclock .clock { height: 73px; width: 146px; position: absolute; top: 10px; left: 10px;
+}
+
+.jclock .infoalarm {
+position: absolute; top: 5px; right: 10px; color: white; width: 30px; text-align: left; 
+}
+ .ClockBG {background:url(img/clockbglist.png) no-repeat 0 0}
+ .ClockBG .ClockBG0 {background-position: 0px 0px; }
+ .ClockBG .ClockBG1 {background-position:-74px 0px; }
+ .ClockBG .ClockBG2 {background-position:-148px 0px; }
+ .ClockBG .ClockBG3 {background-position: 0px -74px; }
+ .ClockBG .ClockBG4 {background-position: -74px -74px; }
+ .ClockBG .ClockBG5 {background-position: -148px -74px; }
+ .ClockBG .ClockBG6 {background-position: 0px -148px; }
