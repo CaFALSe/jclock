@@ -48,7 +48,7 @@
                 $this.timeUpdate = '';
                 
                 var html = '<div id="sky_plugin_container_' + $this.attr('id') + '" class="jclock">';
-                html += '<img class="infoweather" align="left" src="img/weather/2.png" /> ';
+                html += '<img class="infoweather" align="left" /> ';
                 html += '<div class="infoweatherpanel"> </div>';
                 html += '<div class="clock">';
                 html += '</div>';
